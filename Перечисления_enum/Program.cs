@@ -9,15 +9,17 @@ namespace Перечисления_enum
             Регистрация = 1,
             Авторизация = 2,
             Генерация_персонажа = 3,
-            Бой = 4,
-            Выход = 5,
+            Уровень_1 = 4,
+            Уровень_2 = 5,
+            Выход = 6,
         }
         static void Main(string[] args)
         {
             Console.WriteLine($"Чтобы зарегистрироваться, наберите {(int)Menu.Регистрация}.");
             Console.WriteLine($"Для авторизации наберите {(int)Menu.Авторизация}.");
             Console.WriteLine($"Для генерации персонажа наберите {(int)Menu.Генерация_персонажа}.");
-            Console.WriteLine($"Для начала боя наберите {(int)Menu.Бой}.");
+            Console.WriteLine($"Для выбора 1 уровня наберите {(int)Menu.Уровень_1}.");
+            Console.WriteLine($"Для выбора 2 уровня наберите {(int)Menu.Уровень_2}.");
             Console.WriteLine($"Для выхода наберите {(int)Menu.Выход}.");
             int input = int.Parse(Console.ReadLine());
             Menu knopka = (Menu)input;
