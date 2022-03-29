@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Перечисления_enum", "Перечисления_enum\Перечисления_enum.csproj", "{784DE492-29E6-46F6-B0C8-D334C2401095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{784DE492-29E6-46F6-B0C8-D334C2401095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784DE492-29E6-46F6-B0C8-D334C2401095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784DE492-29E6-46F6-B0C8-D334C2401095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784DE492-29E6-46F6-B0C8-D334C2401095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2F466EC-37D3-4A46-B911-B146EA52C36F}
+	EndGlobalSection
+EndGlobal
